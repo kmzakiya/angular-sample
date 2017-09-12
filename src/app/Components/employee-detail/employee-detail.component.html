@@ -1,0 +1,23 @@
+<div *ngIf="employee">
+    <h3>
+        {{employee.firstName}} {{employee.lastName}}
+    </h3>
+    <!--<div [innerHtml]="title"></div>-->
+    <!-- component intercation using template variable Start-->
+    <!--<button class="btn" (click)="template.increment()">
+        +
+    </button>
+    <button class="btn" (click)="template.decrement()">
+        -
+    </button>
+    <template-variable #template></template-variable>-->
+    <!-- component intercation using template variable End -->
+
+    <!--using viewchild-->
+    <div class="number">
+        <h4>Parent Component Data: {{ number() }}</h4>
+    </div>
+    <button class="btn" (click)="increment()"> + </button>
+    <button class="btn" (click)="decrement()"> - </button>
+    <template-variable></template-variable>
+</div>

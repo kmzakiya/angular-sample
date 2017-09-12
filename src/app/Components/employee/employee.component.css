@@ -1,0 +1,14 @@
+.employee-id{
+    display: inline-block;
+    padding: 6px;
+    background: #57C;
+    text-align: center;
+    height: 30px;
+    color: #FFF;
+    width: 30px;
+}
+.employee-name{
+    height: 30px;
+    margin: 0;
+    background:#86add4;
+}

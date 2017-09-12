@@ -1,0 +1,14 @@
+.dashboard-item{
+    /*display: inline-block;
+    width: 20%;*/
+    margin: 10px auto;
+}
+.dashboard-item-content{
+    padding:20px 5px;
+    background: #CCC;
+    box-shadow: 1px 1px 1px 1px #999;
+}
+.dashboard-item-content h2{
+    margin: 10px auto;
+    text-align: center;
+}

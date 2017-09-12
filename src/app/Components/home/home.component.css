@@ -1,0 +1,9 @@
+.employee-list{
+    list-style: none;
+        padding-left: 10px;
+}
+.employee-list .employee{
+    height: 30px;
+    margin: 5px;
+    color: #FFF;
+}
